@@ -43,5 +43,4 @@ echo '添加wifi计划插件'
 git clone $wifischedule_url package/luci-app-wifischedule
 echo 'CONFIG_PACKAGE_luci-app-wifischedule=y' >> .config
 
-cd lede && ./scripts/feeds update -a
-
+ 
